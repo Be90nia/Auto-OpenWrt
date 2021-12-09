@@ -26,6 +26,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 #make menuconfig时记得勾选LuCI ---> Applications ---> luci-app-argon-config
 
 ########### 安装应用过滤（必选）###########
+# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 ########### 安装smartdns（必选）###########
