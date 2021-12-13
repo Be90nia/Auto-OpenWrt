@@ -5,7 +5,7 @@
 - 本项目使用定时编译（北京时间每周日下午4点开始自动运行编译）及触发编译（更新script.sh后可开始编译）两种方式。
 - 本项目同时编译5.4内核、5.10内核固件
 - 本项目编译固件适配 X86_64架构软路由
-- 本项目编译固件后台地址：192.168.3.1 管理员：root  初始密码：空
+- 本项目编译固件后台地址：192.168.3.1 管理员：root  初始密码：password
 - 本项目相对源码默认设置做了如下更改：
 
 **特色插件**：
@@ -13,9 +13,9 @@
   - [x] 添加 darkmatter主题
   - [x] 添加科学上网插件 passwall
   - [x] 添加本地DNS服务器插件  smartdns
-  - [x] 添加应用过滤
+  - [ ] 添加应用过滤 (界面还有bug暂时添加进去)
   - [x] 添加DDNSTO (内网穿透)
-  - [ ] 添加易有云 
+  - [ ] 添加易有云  
   
 **集成插件**：（**打勾项**默认**编译**入固件、**未打勾项**默认**不编译**入固件）
   - [x] luci-app-accesscontrol  #访问时间控制
@@ -49,6 +49,10 @@
   - [x] luci-app-vsftpd  #FTP服务器
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
+  - [x] luci-app-easymesh   #简单MESH(可有线+无线回程)
+  - [x] luci-app-guest-wifi   #WiFi访客网络
+  - [x] luci-app-baidupcs-web  #百度网盘管理
+  - [x] luci-app-go-aliyundrive-webdav  #阿里网盘管理
   
 
 **系统截图**：
