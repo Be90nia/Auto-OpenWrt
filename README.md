@@ -49,7 +49,7 @@
   - [x] luci-app-vsftpd  #FTP服务器
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
-  - [x] luci-app-easymesh   #简单MESH(可有线+无线回程)
+  - [ ] luci-app-easymesh   #简单MESH(可有线+无线回程) (云编译暂时无法使用)
   - [x] luci-app-guest-wifi   #WiFi访客网络
   - [x] luci-app-baidupcs-web  #百度网盘管理
   - [x] luci-app-go-aliyundrive-webdav  #阿里网盘管理
