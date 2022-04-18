@@ -21,11 +21,12 @@
 
 
 ####### 科学上网插件 #######
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages' >>feeds.conf.default
+echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci' >>feeds.conf.default
 
 
 ####### darkmatter主题 #######
-echo 'src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' >>feeds.conf.default
+#echo 'src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' >>feeds.conf.default
 
 ####### DDNSTO 与 易有云 #######
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
