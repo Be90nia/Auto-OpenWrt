@@ -37,4 +37,9 @@ sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/pymumu/smartdns.git package/smartdns
 
+########### 安装应用过滤（必选）###########
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
+########### 安装smartdns（必选）###########
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
