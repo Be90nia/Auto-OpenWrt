@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
 
 ########### 更新lean的内置的smartdns版本 ###########
-sed -i 's/1.2021.35/2022.03.02/g' feeds/packages/net/smartdns/Makefile
+sed -i 's/1.2021.35/2022.08.06/g' feeds/packages/net/smartdns/Makefile
 sed -i 's/f50e4dd0813da9300580f7188e44ed72a27ae79c/1fd18601e7d8ac88e8557682be7de3dc56e69105/g' feeds/packages/net/smartdns/Makefile
 sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
 
